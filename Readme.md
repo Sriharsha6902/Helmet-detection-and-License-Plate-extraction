@@ -6,7 +6,7 @@ When an image is fed into the model, it scans the image and identifies any helme
 
 
 ## Installation
-git clone https://github.com/username/helmet-license-plate-detection.git<br/>
+git clone https://github.com/Sriharsha6902/Helmet-detection-and-License-Plate-extraction.git<br/>
 pip install -r requirements.txt
 
 ## TRAIN MODEL 
