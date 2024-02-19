@@ -199,7 +199,7 @@ def detect(opt):
 
 def start_detecttion(file=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', nargs='+', type=str, default='C:/Users/Sudheep/Downloads/Helmet_Number Plate Detection-GUI/Helmet_Number Plate Detection-GUI/runs/train/finalModel/weights/best.pt', help='model.pt path(s)')
+    parser.add_argument('--weights', nargs='+', type=str, default='./runs/train/finalModel/weights/best.pt', help='model.pt path(s)')
     parser.add_argument('--source', type=str, default='dataset/t_image/', help='source')  
     parser.add_argument('--img-size', type=int, default=448, help='inference size (pixels)')
     parser.add_argument('--conf-thres', type=float, default=0.25, help='object confidence threshold')
