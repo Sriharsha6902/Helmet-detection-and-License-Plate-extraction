@@ -23,7 +23,7 @@ def HomePage():
 		pass
 
 	window = Tk()
-	img = Image.open("C:/Users/Sudheep/Downloads/Helmet_Number Plate Detection-GUI/Helmet_Number Plate Detection-GUI/Images/Home.png")
+	img = Image.open("./Images/Home.png")
 	img = ImageTk.PhotoImage(img)
 	panel = Label(window, image=img)
 	panel.pack(side="top", fill="both", expand="yes")
